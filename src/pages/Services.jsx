@@ -1,44 +1,78 @@
 import React from "react";
+import { FaIndustry, FaTools, FaFire, FaTruck, FaWrench, FaLeaf } from "react-icons/fa";
 
-/* IMPORT STOVE IMAGES */
-import stove1 from "../assets/images/stove1.jpeg";
-import stove2 from "../assets/images/stove2.jpeg";
-import stove3 from "../assets/images/stove3.jpg";
-import stove4 from "../assets/images/stove4.jpg";
-
-function Services() {
+const Services = () => {
   return (
-    <>
-      {/* STOVE PRODUCTS */}
-      <section className="stove-gallery container">
-        <h2 className="services-title">Our Steam Stoves</h2>
+    <section className="services-page">
+      <div className="container">
+
+        <h1 className="services-title">Our Services</h1>
+        <p className="services-subtitle">
+          We provide high-quality steam stove manufacturing and support services 
+          designed for homes, institutions, and commercial kitchens.
+        </p>
 
         <div className="services-grid">
 
           <div className="service-card">
-            <img src={stove1} alt="Single Burner Steam Stove" />
-            <h3>Single Burner Steam Stove</h3>
+            <FaIndustry className="service-icon"/>
+            <h3>Steam Stove Manufacturing</h3>
+            <p>
+              We design and manufacture durable steam-powered stoves 
+              suitable for homes, schools, hotels, and institutions.
+            </p>
           </div>
 
           <div className="service-card">
-            <img src={stove2} alt="Double Burner Steam Stove" />
-            <h3>Double Burner Steam Stove</h3>
+            <FaTools className="service-icon"/>
+            <h3>Custom Stove Fabrication</h3>
+            <p>
+              Our team builds customized steam stoves tailored to your 
+              kitchen size, cooking capacity, and operational needs.
+            </p>
           </div>
 
           <div className="service-card">
-            <img src={stove3} alt="Commercial Steam Stove" />
-            <h3>Commercial Steam Stove</h3>
+            <FaFire className="service-icon"/>
+            <h3>Energy Efficient Cooking</h3>
+            <p>
+              Our steam stove technology helps reduce fuel consumption 
+              while providing fast and safe cooking solutions.
+            </p>
           </div>
 
           <div className="service-card">
-            <img src={stove4} alt="Institutional Steam Stove" />
-            <h3>Institutional Steam Stove</h3>
+            <FaTruck className="service-icon"/>
+            <h3>Delivery & Installation</h3>
+            <p>
+              We offer reliable delivery and professional installation 
+              services to ensure your equipment works perfectly.
+            </p>
+          </div>
+
+          <div className="service-card">
+            <FaWrench className="service-icon"/>
+            <h3>Maintenance & Repair</h3>
+            <p>
+              Our technicians provide regular maintenance and repair 
+              services to keep your steam stove operating efficiently.
+            </p>
+          </div>
+
+          <div className="service-card">
+            <FaLeaf className="service-icon"/>
+            <h3>Eco-Friendly Cooking Solutions</h3>
+            <p>
+              Our stoves promote environmentally friendly cooking with 
+              reduced smoke emissions and improved fuel efficiency.
+            </p>
           </div>
 
         </div>
-      </section>
-    </>
+
+      </div>
+    </section>
   );
-}
+};
 
 export default Services;
