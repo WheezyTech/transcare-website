@@ -11,10 +11,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_nkngjvw", // your Service ID
-        "template_ykw202s", // your Template ID
+        "service_uyg3c1d", // your Service ID
+        "template_syvvf0t", // your Template ID
         e.target,
-        "KHGohCFOzwJ6P96m4" // your Public Key
+        "xh6dGg_lR1vQp_S6Y" // your Public Key
       )
       .then(
         (result) => {
