@@ -51,10 +51,21 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Follow Us</h4>
             <div className="footer-social">
-              <a href="#"><FaFacebookF /></a>
-              <a href="#"><FaTwitter /></a>
-              <a href="#"><FaLinkedinIn /></a>
-              <a href="#"><FaInstagram /></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+  <FaFacebookF />
+</a>
+
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+  <FaTwitter />
+</a>
+
+<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+  <FaLinkedinIn />
+</a>
+
+<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+  <FaInstagram />
+</a>
             </div>
           </div>
 
