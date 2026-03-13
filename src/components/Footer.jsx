@@ -51,7 +51,7 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Follow Us</h4>
             <div className="footer-social">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/share/18gVvD2gvJ/" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </a>
 
