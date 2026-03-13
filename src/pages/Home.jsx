@@ -124,11 +124,11 @@ Transcare Agencies is a Kenyan-based company and a partner of the Clean Cooking 
       <img src={ceo} alt="CEO Transcare Agencies" />
       <p className="ceo-name">CEO/Founder - Transcare Agencies</p>
       <p className="ceo-quote">
-        "Dr. Philip Kolil
-        Chief Executive Officer        
-        Dr. Philip Kolil leads Transcare Agencies with a commitment to
+        Dr. Philip Kolil
+        Chief Executive Officer     
+        leads Transcare Agencies with a commitment to
         innovation, quality manufacturing, and reliable steam stove
-        solutions designed for homes, institutions, and commercial kitchens."
+        solutions designed for homes, institutions, and commercial kitchens.
       </p>
     </div>
 
