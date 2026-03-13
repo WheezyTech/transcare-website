@@ -727,19 +727,32 @@ body {
 }
 
 /* WHY US SECTION */
-.why-us{
-background:#0b2a55;
-padding:70px 10%;
-color:white;
-}
-
-/* layout */
-.why-us-content{
+.why-container{
 display:flex;
+gap:40px;
 align-items:center;
 justify-content:space-between;
-gap:40px;
 flex-wrap:wrap;
+}
+
+.why-text{
+flex:1;
+}
+
+.why-image{
+flex:1;
+text-align:center;
+}
+
+.why-image img{
+width:250px;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.ceo-title{
+font-weight:bold;
+color:#007BFF;
 }
 
 /* text */
