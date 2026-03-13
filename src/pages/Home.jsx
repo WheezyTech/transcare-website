@@ -112,8 +112,8 @@ Transcare Agencies is a Kenyan-based company and a partner of the Clean Cooking 
       <h2>Why Choose Transcare Agencies?</h2>
 
       <ul>
-        <li>✔ Reliable & On-Time Delivery</li>
-        <li>✔ Professional Team</li>
+        <li>✔ Reliable & On-Time Delivery - We are committed to delivering our steam stoves and services on time while maintaining the highest standards of quality and reliability.</li>
+        <li>✔ Professional Team - Our experienced and skilled team ensures every steam stove is designed, manufactured, and installed with precision and expertise.</li>
         <li>✔ Competitive Pricing</li>
         <li>✔ Customer-Focused Approach</li>
       </ul>
