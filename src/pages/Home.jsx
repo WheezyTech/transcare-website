@@ -105,20 +105,56 @@ Transcare Agencies is a Kenyan-based company and a partner of the Clean Cooking 
 
 {/* WHY CHOOSE US */}
 <section className="why-us">
-  <div className="container why-us-content">
+  <div className="container">
+    <h2>Why Choose Transcare Agencies?</h2>
 
-    {/* LEFT TEXT */}
-    <div className="why-text">
-      <h2>Why Choose Transcare Agencies?</h2>
+    <ul className="why-list">
 
-      <ul>
-        <li>✔ Reliable & On-Time Delivery - We are committed to delivering our steam stoves and services on time while maintaining the highest standards of quality and reliability.</li>
-        <li>✔ Professional Team - Our experienced and skilled team ensures every steam stove is designed, manufactured, and installed with precision and expertise.</li>
-        <li>✔ Competitive Pricing</li>
-        <li>✔ Customer-Focused Approach</li>
-      </ul>
-    </div>
+      <li>
+        <strong>✔ Reliable & On-Time Delivery</strong>
+        <p>
+          We are committed to delivering our steam stoves and services on time
+          while maintaining the highest standards of quality and reliability.
+        </p>
+      </li>
 
+      <li>
+        <strong>✔ Professional Team</strong>
+        <p>
+          Our experienced and skilled team ensures every steam stove is designed,
+          manufactured, and installed with precision and expertise.
+        </p>
+      </li>
+
+      <li>
+        <strong>✔ Competitive Pricing</strong>
+        <p>
+          We provide high-quality steam stove solutions at affordable and
+          competitive prices to ensure value for our customers.
+        </p>
+      </li>
+
+      <li>
+        <strong>✔ Customer-Focused Approach</strong>
+        <p>
+          Customer satisfaction is our priority. We listen to our clients’ needs
+          and provide tailored solutions that meet their cooking and operational
+          requirements.
+        </p>
+      </li>
+
+      <li>
+        <strong>✔ Energy Efficient Technology</strong>
+        <p>
+          Our steam stoves are designed to reduce fuel consumption while
+          delivering fast and efficient cooking for homes, institutions,
+          and commercial kitchens.
+        </p>
+      </li>
+
+    </ul>
+  </div>
+</section>
     {/* RIGHT IMAGE */}
     <div className="why-image">
       <img src={ceo} alt="CEO Transcare Agencies" />
