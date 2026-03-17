@@ -9,7 +9,7 @@ const Products = () => {
 
   const products = [
     {
-      name: "Kolil Economical Steam stove KE/ID/2023/2718",
+      name: "Kolil Economical Steam stove Model: KE/ID/2023/2718",
       description: "Is a model for house hold like nomal jiko. Gloria Chepchumba Bor is the among innovators",
       image: stove1,
     },
