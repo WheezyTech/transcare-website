@@ -9,8 +9,8 @@ const Products = () => {
 
   const products = [
     {
-      name: "Single Burner Steam Stove",
-      description: "Compact and efficient stove suitable for small kitchens and households.",
+      name: "Kolil Economical Steam stove KE/ID/2023/2718",
+      description: "Is a model for house hold like nomal jiko. Gloria Chepchumba Bor is the among innovators",
       image: stove1,
     },
     {
