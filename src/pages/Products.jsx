@@ -15,7 +15,7 @@ const Products = () => {
     },
     {
       name: "Economical Steam Stove KE/U/2015/538",
-      model: "KE/U/2015/538",
+      model: "Model: KE/U/2015/538",
       description: "Designed for faster cooking with two burners for medium-sized kitchens.",
       image: stove2,
     },
