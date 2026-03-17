@@ -896,6 +896,12 @@ font-size:34px;
 margin-bottom:40px;
 }
 
+.model-number {
+  font-size: 14px;
+  color: gray;
+  margin-top: -5px;
+}
+
 .products-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
