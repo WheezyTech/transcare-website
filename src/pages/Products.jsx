@@ -14,23 +14,23 @@ const Products = () => {
       image: stove1,
     },
     {
-      name: "Economical Steam Stove KE/U/2015/538",
+      name: "Economical Steam Stove Model: KE/U/2015/538",
       model: "Model: KE/U/2015/538",
       description: "Designed for faster cooking with two burners for medium-sized kitchens.",
       image: stove2,
     },
     {
-      name: "Commercial Steam Stove",
+      name: "MultiKolil Economical Steam Blower Model: KE/P/2019/3340",
       description: "Heavy-duty stove designed for restaurants and large-scale cooking operations.",
       image: stove3,
     },
     {
-      name: "Institutional Steam Stove",
+      name: "Economical Steam Incinerator Model: KE/U/2019/1281",
       description: "Large capacity stove perfect for schools, hospitals, and institutions.",
       image: stove4,
     },
     {
-      name: "Industrial Steam Stove",
+      name: "Economical Corn Cob Briquette Model: KE/U/2019/1282",
       description: "High performance stove suitable for factories and industrial kitchens.",
       image: stove4,
     },
