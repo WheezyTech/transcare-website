@@ -5,6 +5,7 @@ import stove2 from "../assets/images/stove2.jpeg";
 import stove3 from "../assets/images/stove3.jpg";
 import stove4 from "../assets/images/stove4.jpeg";
 import stove5 from "../assets/images/stove5.jpeg";
+import stove6 from "../assets/images/stove6.jpeg";
 
 const Products = () => {
 
@@ -38,7 +39,7 @@ const Products = () => {
     {
       name: "Multi Burner Steam Stove",
       description: "Multiple burner stove designed for high cooking demand environments.",
-      image: stove4,
+      image: stove6,
     },
   ];
 
