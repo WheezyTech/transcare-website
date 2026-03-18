@@ -4,6 +4,7 @@ import stove1 from "../assets/images/stove1.jpeg";
 import stove2 from "../assets/images/stove2.jpeg";
 import stove3 from "../assets/images/stove3.jpg";
 import stove4 from "../assets/images/stove4.jpeg";
+import stove4 from "../assets/images/stove5.jpeg";
 
 const Products = () => {
 
@@ -27,7 +28,7 @@ const Products = () => {
     {
       name: "Economical Steam Incinerator Model: KE/U/2019/1281",
       description: "Large capacity stove perfect for schools, hospitals, and institutions.",
-      image: stove4,
+      image: stove5,
     },
     {
       name: "Economical Corn Cob Briquette Model: KE/U/2019/1282",
