@@ -4,7 +4,7 @@ import stove1 from "../assets/images/stove1.jpeg";
 import stove2 from "../assets/images/stove2.jpeg";
 import stove3 from "../assets/images/stove3.jpg";
 import stove4 from "../assets/images/stove4.jpeg";
-import stove4 from "../assets/images/stove5.jpeg";
+import stove5 from "../assets/images/stove5.jpeg";
 
 const Products = () => {
 
