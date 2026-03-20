@@ -474,6 +474,7 @@ body {
   display: flex;
   gap: 12px;
   margin-top: 15px;
+  align-items: center; /* vertical alignment for logo */
 }
 
 .footer-social a {
@@ -489,11 +490,25 @@ body {
   transition: 0.3s;
 }
 
+/* Hover effect for social icons */
 .footer-social a:hover {
   background: #00b894;
   transform: scale(1.2);
 }
 
+/* KEBS logo inside social icons */
+.footer-social a img {
+  width: auto;
+  height: 40px; /* match icon size visually */
+  border-radius: 5px; /* optional rounded edges */
+  transition: transform 0.3s, filter 0.3s;
+}
+
+/* Hover effect for KEBS logo */
+.footer-social a:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.2); /* subtle pop effect */
+}
 
 .footer-bottom {
   text-align: center;
@@ -501,6 +516,23 @@ body {
   border-top: 1px solid #222;
   padding-top: 20px;
   color: #aaa;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footer-social a img {
+    height: 35px; /* smaller on mobile */
+  }
 }
 
 /* Mobile responsiveness */
