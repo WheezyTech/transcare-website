@@ -852,38 +852,113 @@ transition:transform 0.4s ease;
 transform:scale(1.12);
 }
 
-.services-page{
-padding:80px 0;
-text-align:center;
+/* ===== SERVICES PAGE ===== */
+
+.services-page {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f9fbff;
 }
 
-.services-title{
-font-size:36px;
-margin-bottom:50px;
+/* Title */
+.services-title {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #1b3c6b;
+  font-weight: bold;
 }
 
-.services-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
+/* Subtitle */
+.services-subtitle {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-.service-card{
-background:white;
-padding:30px;
-border-radius:12px;
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
-transition:0.3s;
+/* Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
 }
 
-.service-card:hover{
-transform:translateY(-10px);
+/* Card */
+.service-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
 }
 
-.service-icon{
-font-size:40px;
-color:#007bff;
-margin-bottom:15px;
+/* Hover effect */
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Icon */
+.service-icon {
+  font-size: 40px;
+  color: #007BFF;
+  margin-bottom: 15px;
+}
+
+/* Heading */
+.service-card h3 {
+  color: #007BFF;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Paragraph */
+.service-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* List inside cards */
+.service-card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.service-card ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* ===== WHY CHOOSE US ===== */
+
+.why-choose {
+  margin-top: 70px;
+  padding: 40px;
+  background: #0a2a6b;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.why-choose h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.why-choose ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose li {
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .products-section{
