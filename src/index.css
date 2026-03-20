@@ -37,6 +37,20 @@ nav .logo {
   font-size: 24px;
   color: #fff;
 }
+.footer-cert-logos {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.footer-cert-logos img {
+  height: 50px; /* adjust size */
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* optional: make logo white for dark footer */
+}
 
 nav .nav-links {
   display: flex;
