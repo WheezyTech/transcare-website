@@ -1,20 +1,10 @@
 import React from "react";
 import { FaBullseye, FaEye } from "react-icons/fa";
-import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <div className="about-page">
       
-      {/* SEO META TAGS */}
-      <Helmet>
-        <title>About Transcare Agencies | Steam Stove Manufacturing Kenya</title>
-        <meta
-          name="description"
-          content="Learn about Transcare Agencies, a Kenyan company specializing in energy-efficient steam stove manufacturing and clean cooking solutions for homes, schools, and institutions."
-        />
-      </Helmet>
-
       {/* HERO SECTION */}
       <div className="about-hero">
         <div className="about-overlay">
