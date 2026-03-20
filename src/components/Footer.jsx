@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import kebsLogo from "../assets/images/kebs.png";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -69,6 +70,11 @@ const Footer = () => {
             </div>
           </div>
 
+        </div>
+
+        {/* KEBS Logo */}
+        <div className="footer-cert-logos">
+          <img src={kebsLogo} alt="KEBS Certified" />
         </div>
 
         {/* Footer Bottom */}
