@@ -67,14 +67,14 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
+              
+              {/* KEBS logo */}
+              <a href="https://www.kebs.org/" target="_blank" rel="noopener noreferrer">
+                <img src={kebsLogo} alt="KEBS Certified" />
+              </a>
             </div>
           </div>
 
-        </div>
-
-        {/* KEBS Logo */}
-        <div className="footer-cert-logos">
-          <img src={kebsLogo} alt="KEBS Certified" />
         </div>
 
         {/* Footer Bottom */}
