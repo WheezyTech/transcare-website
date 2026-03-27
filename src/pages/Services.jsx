@@ -20,7 +20,7 @@ const Services = () => {
         <p className="services-subtitle">
           At Transcare Agencies, we provide high-quality, energy-efficient
           steam stove manufacturing and support services designed for homes,
-          schools, institutions, and commercial kitchens across Kenya.
+          schools, institutions, and commercial kitchens across Trans-Sahara Africa and beyond.
         </p>
 
         <div className="services-grid">
