@@ -16,6 +16,9 @@ import truck11 from "../assets/images/truck11.jpg";
 import truck12 from "../assets/images/truck12.jpeg";
 import truck13 from "../assets/images/truck13.jpeg";
 import truck14 from "../assets/images/truck14.jpeg";
+import truck15 from "../assets/images/truck14.jpeg";
+import truck16 from "../assets/images/truck14.jpeg";
+import truck17 from "../assets/images/truck14.jpeg";
 import ceo from "../assets/images/ceo.png";
 
 function Home() {
@@ -32,7 +35,10 @@ const images = [
   { src: truck11 },
   { src: truck12 },
   { src: truck13 },
-  { src: truck14 }
+  { src: truck14 },
+  { src: truck15 },
+  { src: truck16 },
+  { src: truck17 },
 ];
 
 const [open, setOpen] = useState(false);
