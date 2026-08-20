@@ -53,7 +53,7 @@ function Contact() {
           <div className="contact-card">
             <FaEnvelope className="contact-icon"/>
             <h3>Email</h3>
-            <p>philkolil02@gmail.com, transcareagencies@gmail.com</p>
+            <p>ceo@transcareagencies.co.ke, director@transcareagencies.co.ke</p>
           </div>
 
           <div className="contact-card">
